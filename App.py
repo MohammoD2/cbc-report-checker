@@ -9,8 +9,9 @@ st.title('Welcome To Ibrahim Creation ')
 st.header('Creator- Mohammod Ibrahim Hossain ')
 st.write("Contributor- Saidur Rahman safim")
 st.image('blood.jpg')
-model = joblib.load("E:\Work files\CBC prediction\model.pkl")
-scaler = joblib.load("E:\Work files\CBC prediction\scaler.pkl")
+
+model = joblib.load("/mount/src/cbc-report-checker/models/model.pkl")
+scaler = joblib.load("/mount/src/cbc-report-checker/models/scaler.pkl")
 
 def predict_result(data):
 
